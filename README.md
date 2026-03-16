@@ -8,9 +8,9 @@ LSPosed module for AOSP-based ROMs (those that don't include status bar or navig
 
 - Hooks `com.android.systemui` through LSPosed.
 - Applies subtle padding/pixel shifts every minute to:
-  - `PhoneStatusBarView`
-  - `NavigationBarView`
-  - `NavigationBarFrame`
+  - `PhoneStatusBarView` see: [.java android source code file](https://android.googlesource.com/platform/frameworks/base/+/master/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java)
+  - `NavigationBarView` see: [.java android source code file](https://android.googlesource.com/platform/frameworks/base/+/0d210f6/packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationBarView.java)
+  - `NavigationBarFrame` see: [.java android source code file](https://android.googlesource.com/platform/frameworks/base/+/7516354f0637/packages/SystemUI/src/com/android/systemui/navigationbar/NavigationBarFrame.java)
 - Uses very small offsets (about `0.7px` to `3px`) and short animation duration.
 - Resets view position when detached.
 

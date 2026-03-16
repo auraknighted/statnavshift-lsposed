@@ -8,9 +8,9 @@ Módulo LSPosed para ROM basadas en AOSP (aquellas que no incluyen protección c
 
 - Hookea `com.android.systemui` mediante LSPosed.
 - Aplica desplazamientos sutiles de padding/píxeles cada minuto en:
-  - `PhoneStatusBarView`
-  - `NavigationBarView`
-  - `NavigationBarFrame`
+  - `PhoneStatusBarView` ver: [archivo .java de código fuente](https://android.googlesource.com/platform/frameworks/base/+/master/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java)
+  - `NavigationBarView` ver: [archivo .java de código fuente](https://android.googlesource.com/platform/frameworks/base/+/0d210f6/packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationBarView.java)
+  - `NavigationBarFrame` ver: [archivo .java de código fuente](https://android.googlesource.com/platform/frameworks/base/+/7516354f0637/packages/SystemUI/src/com/android/systemui/navigationbar/NavigationBarFrame.java)
 - Usa offsets mínimos (aprox. `0.7px` a `3px`) y animaciones cortas.
 - Restaura la posición de la vista al desmontarse.
 
