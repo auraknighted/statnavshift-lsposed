@@ -23,8 +23,8 @@ Este módulo declara en el manifest el scope recomendado para que LSPosed muestr
 
 ## Requisitos
 
-- Android 8.1+ (`minSdk 27`)
-- LSPosed activo
+- Android 8.1+ (`minSdk 27`), probado hasta Android 16 (`maxSdk 36`)
+- LSPosed activo, utiliza [JingMatrix LSPosed](https://github.com/JingMatrix/LSPosed/releases)
 - Reiniciar SystemUI (o reiniciar el dispositivo) tras activar módulo/scope
 
 ## Build local

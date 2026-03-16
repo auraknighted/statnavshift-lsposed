@@ -19,12 +19,12 @@ LSPosed module for AOSP-based ROMs (those that don't include status bar or navig
 This module declares a recommended scope directly in the manifest so LSPosed can suggest which target app(s) to enable:
 
 - `com.android.systemui` (recommended)
-- `android` (framework, optional fallback on some ROMs)
+- `android` (framework, optional fallback on some ROMs, probably)
 
 ## Requirements
 
-- Android 8.1+ (`minSdk 27`)
-- LSPosed enabled
+- Android 8.1+ (`minSdk 27`), tested up to Android 16 (`maxSdk 36`)
+- LSPosed enabled, use [JingMatrix LSPosed](https://github.com/JingMatrix/LSPosed/releases)
 - Restart SystemUI (or reboot device) after enabling the module/scope
 
 ## Local build
@@ -37,4 +37,4 @@ Release APK output is in `app/build/outputs/apk/release/` (`app-release.apk`, si
 
 ## GitHub Actions artifacts
 
-This repository includes a workflow that builds APKs on every push/PR and uploads them as downloadable artifacts.
+This repository includes a workflow that builds APKs on every push/PR and uploads them as downloadable artifacts. 
